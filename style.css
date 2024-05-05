@@ -1,0 +1,146 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(103, 9, 146);
+}
+.png1{
+    background-image: url("https://cdn-icons-png.freepik.com/512/9154/9154636.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.png2{
+    background-image: url("https://www.pngall.com/wp-content/uploads/4/Heart-Symbol-PNG-Picture.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+.png3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8gARcHouCMjJlsL_a-X9O_xV8wQtMW3WQXXbcat34BA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 5px solid rgb(110, 110, 110);
+}
+header h3{
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+}
+section{
+    padding: 0px;
+}
+section > div#text div{
+    margin: 50vh 0px ;
+}
+section > div#text  p{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-shadow: 0px 0px 30px rgb(0, 0, 0);
+    margin: 0px 10px;
+}
+p.background{
+    background-color: black;
+}
+.background{
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/3398718-fundo-de-galaxia-da-via-lactea-vetor.jpg");
+    width: 100%;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    box-shadow: 0px 0px 50px rgb(255, 255, 255);
+    background-size: cover;
+    animation: gradient-background 50s ease infinite;
+}
+.background2{
+    background-image: url("https://www.10wallpaper.com/wallpaper/1920x1200/1310/heart_surface_love-Romantic_HD_Wallpaper_1920x1200.jpg");
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    background-position: center center;
+    box-shadow: 0px 0px 50px rgb(255, 255, 255);
+    animation: gradient-background 50s ease infinite;
+}
+.back{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 60%;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.background3{
+    background-image: url("./Simple\ Elegant\ Photo\ Collage\ Cou.png");
+    width: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    box-shadow: 0px 0px 50px rgb(255, 255, 255);
+    animation: gradient-background 50s ease infinite;
+}
+#heart{
+    width: 100%;
+    max-height: 300px;
+    text-align: center;
+}
+div#heart > img{
+    width: 100px;
+    margin: 10px auto 10px auto;
+    animation: animation-heart 2s ease infinite;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    min-height: 50px;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+footer p{
+    margin: 10px;
+}
+footer > p > a{
+    color: currentColor;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: 0.3s;
+}
+footer > p > a:hover{
+    color: rgb(67, 245, 60)
+}
+@keyframes animation-heart{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes gradient-background{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
