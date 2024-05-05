@@ -1,9 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Farro:wght@300;400;500;700&family=Fasthand&family=Jersey+10&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&display=swap');
 *{
     margin: 0px;
 }
 body{
     background-color: rgb(103, 9, 146);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .png1{
     background-image: url("https://cdn-icons-png.freepik.com/512/9154/9154636.png");
@@ -35,6 +37,11 @@ header h3{
     padding: 10px;
     margin: 5px;
 }
+header h3 > strong{
+    font-family: "Fasthand", cursive;
+    font-weight: 200;
+    font-style: italic;
+}
 section{
     padding: 0px;
 }
@@ -44,8 +51,16 @@ section > div#text div{
 section > div#text  p{
     color: rgb(255, 255, 255);
     padding: 5px;
-    text-shadow: 0px 0px 30px rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     margin: 0px 10px;
+    font-family: "Fasthand", cursive;
+    font-weight: 200;
+}
+section > div#text p > strong{
+    color: rgb(251, 255, 0);
+    font-size: 1.1em;
+    margin: 4px;
+    font-weight: 200;
 }
 p.background{
     background-color: black;
@@ -76,7 +91,7 @@ p.background{
 }
 .back{
     background-color: rgba(0, 0, 0, 0.315);
-    width: 60%;
+    width: 70%;
     border-radius: 10px;
     margin: 0px 10px;
 }
@@ -84,11 +99,11 @@ p.background{
     background-image: url("./Simple\ Elegant\ Photo\ Collage\ Cou.png");
     width: 100%;
     padding: 10px;
-    background-size: cover;
     background-attachment: fixed;
     height: 50vh;
     box-shadow: 0px 0px 50px rgb(255, 255, 255);
-    animation: gradient-background 50s ease infinite;
+    background-size: 110%;
+    animation: gradient-background 40s ease infinite;
 }
 #heart{
     width: 100%;
