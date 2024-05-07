@@ -6,6 +6,7 @@
 body{
     background-color: rgb(103, 9, 146);
     font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
 }
 .png1{
     background-image: url("https://cdn-icons-png.freepik.com/512/9154/9154636.png");
@@ -67,7 +68,7 @@ p.background{
 }
 .background{
     background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/3398718-fundo-de-galaxia-da-via-lactea-vetor.jpg");
-    width: 100%;
+    width:99%;
     padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +80,7 @@ p.background{
 }
 .background2{
     background-image: url("https://www.10wallpaper.com/wallpaper/1920x1200/1310/heart_surface_love-Romantic_HD_Wallpaper_1920x1200.jpg");
-    width: 100%;
+    width: 99%;
     padding: 10px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +98,7 @@ p.background{
 }
 .background3{
     background-image: url("./Simple\ Elegant\ Photo\ Collage\ Cou.png");
-    width: 100%;
+    width: 99%;
     padding: 10px;
     background-attachment: fixed;
     height: 50vh;
